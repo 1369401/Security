@@ -1,0 +1,108 @@
+1. Netwerkscanners
+Deze tools analyseren netwerken op open poorten, verouderde software en bekende kwetsbaarheden.
+
+a. Nmap (Network Mapper)
+Wat het doet: Scant netwerken en identificeert open poorten, actieve services, en kwetsbaarheden.
+Waarom gebruiken:
+Breed inzetbaar voor netwerken van alle groottes.
+Ondersteunt scripting voor gedetailleerde kwetsbaarheidsanalyse (via NSE - Nmap Scripting Engine).
+b. Nessus
+Wat het doet: Geavanceerde kwetsbaarheidsscanner voor netwerken, systemen en applicaties.
+Waarom gebruiken:
+Detecteert duizenden bekende kwetsbaarheden.
+Genereert gedetailleerde rapporten met prioriteiten voor risicobeheer.
+Alternatieven: OpenVAS (gratis) of Qualys.
+c. Wireshark
+Wat het doet: Analyseert netwerkverkeer in real-time om verdachte activiteiten of onversleutelde gegevens te detecteren.
+Waarom gebruiken:
+Geschikt voor diepgaande netwerkdiagnostiek.
+Identificeert mogelijke lekken of misconfiguraties in netwerkprotocollen.
+2. Webapplicatiescanners
+Deze tools identificeren kwetsbaarheden in webapplicaties zoals SQL-injecties, XSS (Cross-Site Scripting), en verouderde frameworks.
+
+a. OWASP ZAP (Zed Attack Proxy)
+Wat het doet: Detecteert en test kwetsbaarheden in webapplicaties.
+Waarom gebruiken:
+Open-source en makkelijk te integreren in ontwikkelomgevingen.
+Ondersteunt zowel geautomatiseerde als handmatige scans.
+b. Burp Suite
+Wat het doet: Voert diepgaande analyses uit van webapplicaties om kwetsbaarheden te vinden.
+Waarom gebruiken:
+Biedt een krachtige combinatie van geautomatiseerde en handmatige testtools.
+Professionele versie bevat geavanceerde functies zoals scanner en repeater.
+3. Endpoint en Systeemscanners
+Deze tools scannen individuele systemen, endpoints en servers op verouderde software en malware.
+
+a. Microsoft Defender Vulnerability Management
+Wat het doet: Scant Windows-systemen op beveiligingslekken en biedt suggesties voor mitigatie.
+Waarom gebruiken:
+Naadloze integratie met Windows-systemen.
+Automatische detectie en prioritering van updates.
+b. Lynis
+Wat het doet: Controleert Linux- en Unix-systemen op beveiligingsproblemen.
+Waarom gebruiken:
+Open-source en eenvoudig te configureren.
+Analyseert configuratie, verouderde software, en logbestanden.
+c. Malwarebytes for Teams
+Wat het doet: Scant op bekende malware en zero-day kwetsbaarheden.
+Waarom gebruiken:
+Detecteert en verwijdert malware op endpoints.
+Ideaal voor MKB en thuisgebruikers.
+4. Penetratietesttools
+Voor proactieve beveiligingstests gebruiken ethische hackers deze tools om kwetsbaarheden te simuleren.
+
+a. Metasploit Framework
+Wat het doet: Voert exploit-tests uit op bekende kwetsbaarheden.
+Waarom gebruiken:
+Inclusief een uitgebreide database van exploits en payloads.
+Geschikt voor training en geavanceerde penetratietests.
+b. Kali Linux
+Wat het doet: Een complete Linux-distributie met ingebouwde beveiligingstools.
+Waarom gebruiken:
+Bevat tools zoals Metasploit, Wireshark, en Aircrack-ng.
+Veelzijdig voor het testen van netwerken, systemen, en applicaties.
+c. Hydra
+Wat het doet: Brute-force tool voor het testen van wachtwoorden en authenticatieprotocollen.
+Waarom gebruiken:
+Ondersteunt veel protocollen zoals SSH, RDP, en HTTP.
+5. Beheertools voor Kwetsbaarheden
+Deze tools helpen om kwetsbaarheden te beheren, te prioriteren en op te lossen.
+
+a. Tenable.io
+Wat het doet: Cloudgebaseerd platform voor kwetsbaarheidsbeheer.
+Waarom gebruiken:
+Automatische scans en integratie met patchmanagement.
+Prioriteert kwetsbaarheden op basis van risiconiveau.
+b. Qualys Cloud Platform
+Wat het doet: Geautomatiseerd kwetsbaarheidsbeheer en compliance-monitoring.
+Waarom gebruiken:
+Uitgebreide dekking van IT-assets, inclusief cloud- en containeromgevingen.
+Gebruiksvriendelijke dashboards.
+c. Rapid7 InsightVM
+Wat het doet: Integreert kwetsbaarheidsscans met patchbeheer.
+Waarom gebruiken:
+Realtime zichtbaarheid van kwetsbaarheden.
+Geeft specifieke actiepunten voor risicobeperking.
+6. Aanvullende Tools
+a. Shodan
+Wat het doet: Zoekmachine voor het vinden van open poorten en kwetsbare apparaten op internet.
+Waarom gebruiken:
+Identificeert blootgestelde IoT-apparaten of verkeerd geconfigureerde systemen.
+b. Cuckoo Sandbox
+Wat het doet: Analyseert verdachte bestanden of programma’s in een veilige omgeving.
+Waarom gebruiken:
+Detecteert malware en onderzoekt hun gedrag.
+c. CyberChef
+Wat het doet: Decodeert, analyseert en manipuleert gegevens (bijv. hashes, versleuteling).
+Waarom gebruiken:
+Helpt om verdachte gegevens te begrijpen.
+7. Beste Werkwijzen bij het Gebruiken van Tools
+Kies tools die passen bij jouw infrastructuur:
+Bijvoorbeeld, Nessus voor netwerkbeveiliging en OWASP ZAP voor webapplicaties.
+Combineer tools:
+Gebruik meerdere tools voor een complete kwetsbaarheidsanalyse.
+Automatiseer waar mogelijk:
+Stel periodieke scans in om nieuwe kwetsbaarheden snel te detecteren.
+Houd tools up-to-date:
+Beveiligingstools hebben updates nodig om nieuwe kwetsbaarheden te detecteren.
+Met deze tools en methoden kun je een robuuste strategie ontwikkelen om kwetsbaarheden op te sporen en te mitigeren.
