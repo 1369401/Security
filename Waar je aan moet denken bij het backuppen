@@ -1,0 +1,76 @@
+Bij het wegschrijven van back-ups zijn er verschillende factoren waarmee je rekening moet houden om ervoor te zorgen dat de back-ups effectief, veilig en betrouwbaar zijn. Hier zijn de belangrijkste aspecten:
+
+1. Beveiliging
+Encryptie:
+Versleutel je back-ups, vooral als ze gevoelige of persoonlijke gegevens bevatten. Dit is essentieel bij offsite of cloudopslag.
+Gebruik AES-256 encryptie, een industriestandaard voor sterke beveiliging.
+Toegangscontrole:
+Zorg ervoor dat alleen bevoegde personen toegang hebben tot de back-ups.
+Gebruik sterke wachtwoorden en, indien mogelijk, twee-factor-authenticatie (2FA).
+2. Frequentie
+Hoe vaak?
+Dagelijks: Voor bestanden die regelmatig worden gewijzigd.
+Wekelijks: Voor minder kritieke bestanden.
+Maandelijks: Voor volledige systeemback-ups of archieven.
+Automatisering:
+Gebruik software die automatisch back-ups uitvoert volgens een schema, zodat je dit niet handmatig hoeft te doen.
+3. Locatie en Redundantie
+Onsite en Offsite:
+Onsite: Snelle toegang bij herstel, bijvoorbeeld een NAS of externe harde schijf.
+Offsite: Bescherming tegen fysieke rampen zoals brand of diefstal, bijvoorbeeld cloudopslag of een harde schijf op een andere locatie.
+Meerdere kopieën:
+Volg de 3-2-1-regel: Drie kopieën, op twee verschillende opslagmedia, waarvan één offsite.
+4. Opslagmedium
+Cloudopslag:
+Geschikt voor eenvoudige toegang en samenwerking.
+Let op opslaglimieten en kosten voor grote datasets.
+Externe harde schijven of USB:
+Goedkoop en draagbaar, maar kwetsbaar voor fysieke schade.
+NAS (Network Attached Storage):
+Ideaal voor automatische en gedeelde back-ups.
+Bescherm met RAID voor redundantie.
+Tapes (voor bedrijven):
+Betrouwbaar voor langetermijnopslag, maar minder gebruiksvriendelijk.
+5. Bestandstypen en -structuur
+Welke bestanden?
+Prioriteer kritieke gegevens zoals documenten, foto’s en werkbestanden.
+Maak een volledige systeemback-up voor herstel na een crash.
+Organisatie:
+Gebruik een logische mappenstructuur zodat bestanden gemakkelijk te vinden zijn.
+Documenteer wat er wordt geback-upt en waar.
+6. Integriteit van de Back-ups
+Test je back-ups:
+Regelmatig testen zorgt ervoor dat je back-ups bruikbaar zijn bij een noodsituatie.
+Voer hersteltests uit om te controleren of de bestanden intact zijn.
+Checksums en logs:
+Gebruik tools die checksums genereren om te controleren of bestanden tijdens het kopiëren niet beschadigd raken.
+Bewaar een logboek van back-ups om te zien wanneer en waar ze zijn gemaakt.
+7. Behoud en Lifecycle Management
+Retentiebeleid:
+Bepaal hoe lang back-ups worden bewaard. Bijvoorbeeld: dagelijkse back-ups voor 30 dagen, maandelijkse voor een jaar.
+Archivering:
+Voor oudere gegevens die zelden worden gebruikt, kan een goedkopere opslagmethode zoals tapes of cold storage worden gebruikt.
+Automatische opruiming:
+Zorg ervoor dat oude back-ups worden verwijderd om opslagruimte vrij te maken.
+8. Compatibiliteit
+Software:
+Zorg ervoor dat de back-upsoftware compatibel is met je apparaten en besturingssystemen.
+Dataformaten:
+Gebruik gangbare formaten die in de toekomst nog toegankelijk zijn.
+9. Bescherming tegen Malware en Ransomware
+Onafhankelijke opslag:
+Bewaar back-ups op een medium dat niet constant is verbonden met je systeem om infectie te voorkomen.
+Back-upisolatie:
+Gebruik "air-gapped" opslag (fysiek losgekoppelde back-ups).
+10. Kosten en Schaalbaarheid
+Kosten:
+Bereken de kosten van opslagmedia, cloudabonnementen en softwarelicenties.
+Schaalbaarheid:
+Kies een oplossing die kan meegroeien met je behoeften, zoals uitbreidbare NAS-opslag of aanpasbare cloudplannen.
+Checklist bij het wegschrijven van een Back-up
+Zijn de bestanden die worden geback-upt volledig en correct geselecteerd?
+Is de back-up versleuteld en beveiligd met een sterk wachtwoord?
+Wordt er gebruikgemaakt van meerdere opslaglocaties/media?
+Zijn de back-ups getest op integriteit en herstelbaarheid?
+Heb je een logboek bijgehouden van wat en wanneer is geback-upt?
+Door deze aspecten te overwegen, zorg je ervoor dat je back-ups betrouwbaar zijn en klaar voor gebruik in geval van een probleem.
